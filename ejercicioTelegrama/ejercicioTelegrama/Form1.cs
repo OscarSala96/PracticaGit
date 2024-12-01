@@ -18,14 +18,14 @@ namespace ejercicioTelegrama
         }
         private void btnCalcularPrecio_Click_1(object sender, EventArgs e)
         {
-                string textoTelegrama = "";
+                string textoTelegrama;
                 char tipoTelegrama = 'o';
                 int numPalabras = 0;
                 double coste;
                 //Leo el telegrama
                 textoTelegrama = txtTelegrama.Text;
                 // telegrama urgente?
-                if (chkUrgente.Checked)
+                if (rdbUrgente.Checked)
                 {
                     tipoTelegrama = 'u';
                 }
