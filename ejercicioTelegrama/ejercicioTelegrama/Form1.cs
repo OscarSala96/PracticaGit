@@ -18,7 +18,7 @@ namespace ejercicioTelegrama
         }
         private void btnCalcularPrecio_Click_1(object sender, EventArgs e)
         {
-                string textoTelegrama;
+                string textoTelegrama = "";
                 char tipoTelegrama = 'o';
                 int numPalabras = 0;
                 double coste;
